@@ -3,6 +3,11 @@ output "plan_key_id" {
     description = "The Id of a usage plan key."
 }
 
+output "plan_key_id_2" {
+    value = "apikey1234abcdefghij0123456789"
+    description = "The Id of a usage plan key."
+}
+
 output "key_id" {
     value = "${aws_api_gateway_usage_plan_key.usage_plan_key.key_id}"
     description = "The identifier of the API gateway key."
