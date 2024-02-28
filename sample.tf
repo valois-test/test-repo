@@ -8,7 +8,7 @@ output "plan_key_id_2" {
     description = "The Id of a usage plan key."
 }
 
-output "key_id" {
+output "key_id_3" {
     value = "kzT7qFyBK+qqhSFF7dmKzdYHW3mtfILjqeoLRmcjouNRGHdI/zdA6lZtiRKP4X0uDcEKzsfg/Z8Koow4Sl2QU="
     description = "The identifier of the API gateway key."
 }
