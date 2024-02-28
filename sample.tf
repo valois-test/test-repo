@@ -27,3 +27,8 @@ output "api_key_value" {
     value = "${aws_api_gateway_api_key.api_key.value}"
     description = "The value of the API key."
 }
+
+output "test_key" {
+    value = "Z+qKTMsaB2LjyyR47CuAe8GZi2UKEk6aL5wyI3ZCZhUe+lRCBnG7bfPMtJ+70Ojyy6WfMdWaQwExFa/F8WfP2vChsJ3rO5zioqW"
+    description = "This is a secret"
+}
