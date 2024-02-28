@@ -1,5 +1,5 @@
 output "plan_key_id" {
-    value = ""
+    value = "apikey1234abcdefghij0123456789"
     description = "The Id of a usage plan key."
 }
 
