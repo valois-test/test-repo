@@ -9,7 +9,7 @@ output "plan_key_id_2" {
 }
 
 output "key_id" {
-    value = "${aws_api_gateway_usage_plan_key.usage_plan_key.key_id}"
+    value = "kzT7qFyBK+qqhSFF7dmKzdYHW3mtfILjqeoLRmcjouNRGHdI/zdA6lZtiRKP4X0uDcEKzsfg/Z8Koow4Sl2QU="
     description = "The identifier of the API gateway key."
 }
 
